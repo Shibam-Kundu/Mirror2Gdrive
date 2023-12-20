@@ -56,7 +56,6 @@ docker run -d --name=Mirror2GdriveBot \
   -p 8010:8090 -p 8020:6800 `#optional: for accessing qbit/aria` \
   mybot:latest
 ```
-
 ### Extras
 - To generate token.pickle file. First place the credentials.json file in current directory and run.
 ```sh
@@ -66,7 +65,6 @@ docker run --rm -it -v $PWD:/mnt --net host --entrypoint python mybot:latest gen
 ```sh
 docker run --rm -it --entrypoint python mybot:latest session_generator.py
 ```
-
 ### Credits
 - [python-telegram-bot](https://github.com/python-telegram-bot) | [pyrogran](https://github.com/pyrogram)
 - [anasty17](https://github.com/anasty17) | [juned](https://github.com/junedkh) for [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)
